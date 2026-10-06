@@ -1,0 +1,12 @@
+<div class="language-list">
+  {% for language in languages.pages %}
+  <a class="language-card" href="{{ language.permalink }}">
+    <span class="language-number">{{ loop.index }}</span>
+    <span class="language-info"><strong>{{ language.title }}</strong><small>{{ language.description }}</small></span>
+    <span class="language-tag">人工言語</span>
+    <span class="language-arrow" aria-hidden="true">↗</span>
+  </a>
+  {% else %}
+  <p class="empty-state">言語ページはまだありません。</p>
+  {% endfor %}
+</div>

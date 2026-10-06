@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}の紹介{% endblock title %}
+{% block description %}{{ page.description }}{% endblock description %}
+{% block content %}
+<section class="language-hero">
+  <p class="eyebrow"><span></span> LANGUAGE PROFILE <span class="profile-id">NO. {{ page.extra.number | default(value="—") }}</span></p>
+  <h1>{{ page.extra.language_name | default(value=page.title) }}</h1>
+  <p class="language-subtitle">{{ page.extra.subtitle | default(value="人工言語") }}</p>
+  <p class="language-tagline">{{ page.extra.tagline | default(value="ことばの紹介") }}</p>
+  <p class="language-intro">{{ page.extra.introduction | default(value=page.description) }}</p>
+</section>
+<section class="profile-facts">
+  <div><span>語順</span><strong>{{ page.extra.word_order | default(value="準備中") }}</strong></div>
+  <div><span>表記体系</span><strong>{{ page.extra.writing_system | default(value="準備中") }}</strong></div>
+</section>
+<article class="prose">{{ page.content | safe }}</article>
+<div class="back-link"><a href="{{ get_url(path='@/_index.md') }}">← ホームへ戻る</a></div>
+{% endblock content %}

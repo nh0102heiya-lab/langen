@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}{{ config.title }} — {{ config.extra.site_description }}{% endblock title %}
+{% block content %}
+{% set languages = get_section(path="languages/_index.md") %}
+<section class="collection" id="languages">
+  <div class="section-top"><p class="eyebrow"><span></span> THE COLLECTION</p><span>{{ languages.pages | length }} LANGUAGES</span></div>
+  <div class="collection-heading"><h2>掲載言語の<em>一覧</em></h2><p>各言語の概要と詳細ページを掲載しています。</p></div>
+  {% include "partials/language-list.html" %}
+</section>
+<section class="closing">
+  <p class="eyebrow">LANGUAGE PROFILES</p>
+  <a class="button" href="{{ get_url(path='@/languages/_index.md') }}">言語一覧へ <span aria-hidden="true">→</span></a>
+</section>
+{% endblock content %}

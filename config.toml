@@ -1,0 +1,9 @@
+base_url = "https://example.com"
+title = "人工言語紹介"
+description = "自作人工言語の概要や特徴を紹介します。"
+default_language = "ja"
+compile_sass = false
+build_search_index = false
+
+[extra]
+site_description = "自作人工言語の紹介サイト"
