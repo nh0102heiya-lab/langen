@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-Allow: /
-Sitemap: https://nh0102heiya-lab.github.io/langen/sitemap.xml
