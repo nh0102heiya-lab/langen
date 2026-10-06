@@ -51,17 +51,25 @@ number = "02"
 | me | 私 |
 | ye | あなた |
 | yest | ひと |
+| yenee | 生・命 |
+| mij | 死 |
 | cysy | 名前 |
 | duy | 太陽 |
 | sam | 月 |
 | sway | 星 |
+| yeneewyo | 稗 |
 | dooyy | 犬 |
+| mose | 魚 |
 | bawy | 馬 |
 | kanmee | 崖 |
 | kan | 岩 |
 | shonot | 水 |
 | e - el | 川 |
 | e - eloo | 入江 |
+| thiyenee | 春 |
+| tonanee | 夏 |
+| yeneewyomai | 秋 |
+| mijmai | 冬 |
 
 ### 動詞
 
