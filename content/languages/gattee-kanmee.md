@@ -81,5 +81,6 @@ number = "02"
 | nodo | 起きる |
 | cwo | 座る |
 | nwo | 立つ |
+| pato | 行く |
 | gono | 来る |
 | eto | 見る |
