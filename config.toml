@@ -1,4 +1,4 @@
-base_url = "https://example.com"
+base_url = "https://nh0102heiya-lab.github.io/langen/"
 title = "人工言語紹介"
 description = "自作人工言語の概要や特徴を紹介します。"
 default_language = "ja"
