@@ -30,4 +30,17 @@ number = "02"
 
 | 単語 | 意味 |
 | --- | --- |
-| 語彙は順次追加します。 |  |
+| me | 私 |
+| ye | あなた |
+| yest | ひと |
+| cysy | 名前 |
+| duy | 太陽 |
+| sam | 月 |
+| sway | 星 |
+| dooyy | 犬 |
+| bawy | 馬 |
+| kanmee | 崖 |
+| kan | 岩 |
+| shonot | 水 |
+| e - el | 川 |
+| e - eloo | 入江 |
