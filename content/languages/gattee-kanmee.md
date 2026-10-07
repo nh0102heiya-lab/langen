@@ -89,4 +89,5 @@ number = "02"
 | nwo | 立つ |
 | pato | 行く |
 | gono | 来る |
-| eto | 見る |
+| eo | 見る |
+| doo | 言う |
